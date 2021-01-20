@@ -18,7 +18,6 @@
 //Load Models
 #include "SOIL2/SOIL2.h"
 
-
 // Other includes
 #include "Shader.h"
 #include "Camera.h"
@@ -45,7 +44,7 @@ float range = 0.0f;
 float rot = 0.0f;
 float PosInX = 30.0f, PosInY = 0.0f, PosInZ = -100.0f;
 
-//Animaci髇 del libro
+//Animaci贸n del libro
 float movLibX = 0.0;
 float movLibY = 0.0;
 float movLibZ = 0.0;
@@ -59,7 +58,7 @@ bool recorrido3 = false;
 bool recorrido4 = false;
 bool recorrido5 = false;
 
-//Animaci髇 del caj髇
+//Animaci贸n del caj贸n
 float movCajZ = 0.0;
 
 bool abrirCerrarCajon = false;
@@ -68,7 +67,7 @@ bool recorridoCaj2 = false;
 bool recorridoCaj3 = false;
 
 
-//Animaci髇 de la puerta
+//Animaci贸n de la puerta
 float movPue = 90.0;
 float posPueX = -61.5;
 float posPueZ = -21.3;
@@ -77,7 +76,7 @@ bool abrirCerrarPue = false;
 bool recorridoPue1 = true;
 bool recorridoPue2 = false;
 
-//Animaci髇 del barco
+//Animaci贸n del barco
 float movBar = 0.0;
 float posBarX = -30.5f;
 
@@ -87,7 +86,7 @@ bool recorridoBar2 = false;
 bool recorridoBar3 = true;
 bool recorridoBar4 = false;
 
-//Animaci髇 de la antena izquierda
+//Animaci贸n de la antena izquierda
 float rotAntIzq = -45.0;
 float posAntIY = 23.9;
 
@@ -96,7 +95,7 @@ bool recorridoIzq1 = true;
 bool recorridoIzq2 = false;
 
 
-//Animaci髇 de la antena derecha
+//Animaci贸n de la antena derecha
 float rotAntDerZ = 90.0;
 float rotAntDerX = 0.0;
 
@@ -1047,7 +1046,7 @@ void DoMovement()
 		moverAntenaIzq = false;
 		moverAntenaDer = false;
 
-		//Animaci髇 del coche
+		//Animaci贸n del coche
 		movLibX = 0.0;
 		movLibY = 0.0;
 		movLibZ = 0.0;
@@ -1061,7 +1060,7 @@ void DoMovement()
 		recorrido4 = false;
 		recorrido5 = false;
 
-		//Animaci髇 del caj髇
+		//Animaci贸n del caj贸n
 		movCajZ = 0.0;
 
 		abrirCerrarCajon = false;
@@ -1069,7 +1068,7 @@ void DoMovement()
 		recorridoCaj2 = false;
 		recorridoCaj3 = false;
 
-		//Animaci髇 de la puerta
+		//Animaci贸n de la puerta
 		movPue = 90.0;
 		posPueX = -61.5;
 		posPueZ = -21.3;
@@ -1078,7 +1077,7 @@ void DoMovement()
 		recorridoPue1 = true;
 		recorridoPue2 = false;
 
-		//Animaci髇 del barco
+		//Animaci贸n del barco
 		movBar = 0.0;
 		posBarX = -30.5f;
 
@@ -1088,7 +1087,7 @@ void DoMovement()
 		recorridoBar3 = true;
 		recorridoBar4 = false;
 
-		//Animaci髇 de la antena izquierda
+		//Animaci贸n de la antena izquierda
 		rotAntIzq = -45.0;
 		posAntIY = 23.9;
 
@@ -1097,7 +1096,7 @@ void DoMovement()
 		recorridoIzq2 = false;
 
 
-		//Animaci髇 de la antena derecha
+		//Animaci贸n de la antena derecha
 		rotAntDerZ = 90.0;
 		rotAntDerX = 0.0;
 
